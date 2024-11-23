@@ -1,0 +1,29 @@
+body {
+  background: radial-gradient(
+    circle at 10% 20%,
+    rgb(69, 86, 102) 0%,
+    rgb(34, 34, 34) 90%
+  );
+  margin: 0;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+}
+
+/*Presentation*/
+
+#presentation {
+  max-width: 800px;
+  font-size: 20px;
+  text-align: justify;
+}
+
+.whoiam {
+  font-family: Palatino, URW Palladio L, sans-serif;
+}
+
+.animated-text {
+  visibility: hidden;
+}

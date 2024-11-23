@@ -71,3 +71,7 @@ function moveReact() {
 }
 
 moveReact();
+
+function goToHome() {
+  window.location.href = "index.html";
+}

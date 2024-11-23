@@ -15,3 +15,9 @@ document.addEventListener("DOMContentLoaded", function () {
   }
   typeWritter();
 });
+
+//bouton retour accueil :
+
+function goToHome() {
+  window.location.href = "index.html";
+}

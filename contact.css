@@ -253,3 +253,31 @@ body {
   top: 0;
   border-radius: 10px;
 }
+
+/*transition page: */
+
+.button .buttons {
+  margin-top: 2.25em;
+}
+
+.buttons .button {
+  margin-left: 150px;
+}
+
+.button {
+  display: fixed;
+  border-radius: 20px;
+  background: transparent;
+  border: 2px solid;
+  padding: 0.6em 0.7em;
+  transition-property: background, color;
+  transition-duration: 150ms;
+  white-space: nowrap;
+  cursor: pointer;
+  color: black;
+  text-decoration: none;
+}
+
+.button:hover {
+  background: #48ff00;
+}
